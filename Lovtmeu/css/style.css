@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family= Ropa+Sans & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logo h1{
+    font-size: 30px;
+    color: #777777;
+    margin: 13px 0px 16px 44px;
+    font-weight: 400;
+    line-height: 11px 
+}
+.logo h2{
+    font-size: 10px;
+    color:#AAAAAA;
+    margin: 13px 552px 14px 0px;
+    font-weight: 400;
+    line-height: 11px
+}
+.logo{
+    display:flex;
+    align-items: center;
+    font-family: 'Ropa Sans', sans-serif;
+    width: 100%;
+    
+}
+.btnMenu{
+    margin: 18px 31px 19px 100px 
+}
+.fotoCentral{
+     margin: 20px 2px 0px 44px;
+     width:91%;
+     height: 350px;
+ }
+
+ .container2{
+  display:flex;
+  flex-direction:column;
+  width: 250px;
+  margin:30px;
+  padding:13px;
+  backgrounD-color: #EEEEEE
+ }
+
+.image-a{
+  width:100%;
+  height: 150px;
+  background-repeat: no-repeat;
+}
+.dados{
+  display:flex;
+  justify-content: space-between;
+}
+.info{
+  margin:10px;
+  
+}
+.boton{
+  width: 56px;
+  height: 21px;
+  background: #51D275;
+  border-radius: 10.5px;
+  text-align: center;
+}
+.cards{
+  display:flex;
+  justify-content: space-between;
+  margin:12px
+}
+
+.subtitulo{
+  text-align: center;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 25px;
+  color: #888888;
+  background-color: white;
+}
+.foto1{
+display: flex;
+justify-content: center;
+margin-top: 13px;
+width: 100%;
+height: 122px;
+}
+.final{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+  background-color: black;
+  color:rgba(255, 255, 255, 1);
+  width: 100%;
+  
+  
+}
+.mapa{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 40px 80px
+}
+.texfinal{
+  display: flex;
+  margin: 49px 45px 99px;
+  flex-direction: column;
+  font-family:'Ropa Sans', sans-serif;
+  line-height: 25px;
+  font-size: 12px;
+}
+.redes{
+  color:rgba(255, 255, 255, 1);
+  margin-top:9px;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.posicao{
+ width: 15px;
+ justify-content: space-between;
+ flex-direction: row;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:481px)  and  (max-width:768px ){
+  .logo{
+    max-width: 100%;
+  }
+  .fotoCentral{
+    width: 100%;
+  }
+  .btnMenu{
+    width: 100vw;
+  }
+  header{
+    width: 100vw;
+}
+  }
+
+
+
+
+
+@media (min-width:50px) and (max-width:480){
+    .logo{
+        max-width: 100%;
+      }
+      header{
+        width: 100vw;
+
+      }
+}
